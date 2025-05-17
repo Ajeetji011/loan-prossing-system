@@ -437,5 +437,8 @@ Label(login_frame, text="Don't have an account?", fg='black', bg='white',
 Button(login_frame, width=6, text='Sign up', border=0, bg='white',
        cursor='hand2', fg='#57a1f8', command=signup_command).place(x=262, y=400)
 
+Label(login_frame, text='Project by INDERJEET', fg='#57a1f8', bg='white',
+      font=('Microsoft YaHei UI Light', 18, 'bold')).place(x=100, y=440)
+
 root.mainloop()
 
